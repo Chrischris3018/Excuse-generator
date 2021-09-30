@@ -3,4 +3,4 @@ let action = ['ate','peed','crushed','broke'];
 let what = ['my homework', 'the keys', 'the car'];
 let when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
 
-mathran
+var quoteRandom = Math.floor(Math.random() * 8)
