@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src=app.js></script>
+    <styles>
+
+    </styles>
 </head>
 <body>
-    <p id="excuse">OMG! you won't believe me but...<script></script></p>
-    
+    <div>
+        <h1>OMG! you won't believe me but...</h1>
+        <p id="excuse">My dog ate my homework</p>
+    </div>
+    <script>
+        const value = type1();
+        const myElement = document.querySelector('#excuse');
+        console.log({myElement})
+        myElement.innerHTML = value;
+    </script>
 </body>
 </html>
