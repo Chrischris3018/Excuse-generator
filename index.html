@@ -10,15 +10,14 @@
 
     </styles>
 </head>
-<body>
+<body onload="excuseGen()">
     <div>
         <h1>OMG! you won't believe me but...</h1>
         <p id="excuse">My dog ate my homework</p>
     </div>
     <script>
-        const value = type1();
+        const value = excuseGen();
         const myElement = document.querySelector('#excuse');
-        console.log({myElement})
         myElement.innerHTML = value;
     </script>
 </body>
